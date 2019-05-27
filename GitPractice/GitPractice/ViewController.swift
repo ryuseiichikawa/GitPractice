@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     }
     
     func ichikawa() {
-        print("ichikawa")
+
+        print("yamashita")
+
     }
 
     func initview() {
