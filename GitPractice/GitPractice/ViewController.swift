@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         initview()
@@ -22,7 +21,9 @@ class ViewController: UIViewController {
     }
 
     func initview() {
-        
+        let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+        let view = UIView(frame: frame)
+        self.view.addSubview(view)
     }
 
 }
