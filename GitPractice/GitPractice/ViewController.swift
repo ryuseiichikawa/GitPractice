@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         let view = UIView(frame: frame)
         self.view.addSubview(view)
     }
+    
+    func testFunc() {
+        
+    }
 
 }
 
