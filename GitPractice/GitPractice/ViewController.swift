@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func testFunc() {
-        
+        print("feature/3で変更1")
     }
 
 }
