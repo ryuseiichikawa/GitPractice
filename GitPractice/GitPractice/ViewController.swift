@@ -14,16 +14,20 @@ class ViewController: UIViewController {
         initview()
     }
     
+    var stringTest = "あ"
+    
     func ichikawa() {
 
         print("yamashita")
-
+        
     }
 
     func initview() {
         let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         let view = UIView(frame: frame)
         self.view.addSubview(view)
+        
+        stringTest = "あ"
     }
     
     func testFunc() {
